@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ex 03</title>
+  </head>
+  <body>
+    <form>
+      <div>
+        <label for="nome">Nome:</label>
+        <input
+          type="text"
+          id="nome"
+          placeholder="Escreva o seu nome"
+          required
+          minlength="3"
+        />
+      </div>
+      <div>
+        <label for="email">Email:</label>
+        <input
+          type="email"
+          id="email"
+          placeholder="Escreva o seu email"
+          required
+        />
+      </div>
+      <div>
+        <label for="idade">Idade:</label>
+        <input type="number" id="idade" required />
+      </div>
+      <div>
+        <label for="nascimento">Data de Nascimento:</label>
+        <input type="date" id="nascimento" />
+      </div>
+      <div>
+        <label for="nacionalidade">Nacionalidade:</label>
+        <select id="nacionalidade">
+          <option value="estadosunidos">Estados Unidos</option>
+          <option value="portugal">Portugal</option>
+          <option value="brasil">Brasil</option>
+          <option value="outra">Outra</option>
+        </select>
+      </div>
+      <div>
+        <label for="password">Palavra-Passe:</label>
+        <input
+          type="password"
+          id="password"
+          required
+          minlength="8"
+          pattern="^(?=.*[a-z])(?=.*[A-Z]).*$"
+        />
+      </div>
+      <div>
+        <input type="submit" value="Submeter formulário" />
+      </div>
+    </form>
+  </body>
+</html>
