@@ -1,0 +1,50 @@
+body {
+  background-color: #c1dcdc;
+  color: #1a1a1a;
+  font-size: 16px;
+  font-family: "Arial";
+  overflow-x: hidden;
+}
+
+.hero {
+  padding: 120px 80px;
+}
+
+.form {
+}
+
+.headline {
+  font-size: 50px;
+}
+
+.form_label {
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.form_input {
+  border-radius: 12px;
+  border: none;
+  font-family: "Arial";
+  font-size: 16px;
+  padding: 18px;
+  margin-top: 10px;
+  width: 400px;
+}
+
+.form_input::placeholder {
+  font-family: "Arial";
+  font-size: 16px;
+  color: #808080;
+}
+
+.form_submit {
+  background-color: #1a1a1a;
+  border: none;
+  border-radius: 12px;
+  color: #ffffff;
+  cursor: pointer;
+  font-size: 16px;
+  padding: 18px 36px;
+  margin-top: 20px;
+}

@@ -1,0 +1,41 @@
+@import url("https://fonts.googleapis.com/css2?family=Lexend:wght@300;400;500;600;700&family=Poppins:wght@400;500;700&display=swap");
+
+body {
+  background-color: #1a1a1a;
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 150%;
+  font-family: "Lexend";
+  overflow-x: hidden;
+}
+
+.hero {
+  padding: 80px;
+}
+
+.hero_card {
+  border: 1px solid #262626;
+  border-radius: 14px;
+  padding: 50px;
+}
+
+.hero_card_headline {
+  font-weight: 500;
+  font-size: 20px;
+  max-width: 683px;
+  margin: 0;
+}
+
+.hero_card_line {
+  background-color: #262626;
+  height: 1px;
+  width: 682px;
+  margin: 30px 0;
+}
+
+.hero_card_paragraph {
+  color: #b3b3b3;
+  max-width: 683px;
+  margin: 0;
+}
