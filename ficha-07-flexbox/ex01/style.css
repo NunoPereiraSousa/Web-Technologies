@@ -1,0 +1,14 @@
+body {
+  background-color: #000000;
+  margin: 0;
+}
+
+.images {
+  display: flex;
+  justify-content: space-between;
+  padding: 80px;
+}
+
+.image {
+  width: 300px;
+}

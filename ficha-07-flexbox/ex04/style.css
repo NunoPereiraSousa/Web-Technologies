@@ -1,0 +1,52 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Poppins:wght@400;700&display=swap");
+
+body {
+  color: #000000;
+  font-family: "Inter";
+  font-size: 18px;
+  margin: 0;
+}
+
+.hero {
+  padding: 80px;
+}
+
+.hero_wrapper {
+  max-width: 1440px;
+  margin: auto;
+
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.hero_headline {
+  font-size: 28px;
+  font-weight: 700;
+  max-width: 506px;
+  margin: 0 auto 30px;
+  text-align: center;
+}
+
+.hero_images {
+  align-items: center;
+  display: flex;
+  gap: 16px;
+  margin-bottom: 30px;
+}
+
+.hero_images_image {
+  border-radius: 50%;
+  height: 64px;
+  width: 64px;
+}
+
+.hero_button {
+  background-color: #f6f6f6;
+  border-radius: 8px;
+  color: #000000;
+  font-weight: 500;
+  padding: 8px 14px;
+  text-decoration: none;
+}
