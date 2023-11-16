@@ -1,0 +1,32 @@
+body {
+  background-color: #ffffff;
+  margin: 0;
+}
+
+.hero {
+  padding: 80px;
+}
+
+.hero_grid {
+  align-items: center;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  justify-items: center;
+  row-gap: 60px;
+}
+
+@media only screen and (max-width: 1024px) {
+  .hero {
+    padding: 20px;
+  }
+
+  .hero_grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .hero_grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}

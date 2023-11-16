@@ -1,0 +1,43 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700;800&display=swap");
+
+body {
+  background-color: #ffffff;
+  font-family: "Poppins";
+  margin: 0;
+}
+
+.hero {
+  padding: 80px;
+}
+
+.hero_grid {
+  display: grid;
+  justify-items: center;
+  grid-template-columns: repeat(3, 1fr);
+  column-gap: 30px;
+  row-gap: 60px;
+}
+
+.hero-card {
+  border-radius: 20px;
+}
+
+.hero_card:hover .hero_card_price {
+  color: #3563e9;
+}
+
+.hero_card_image {
+  width: 295px;
+}
+
+.hero_card_name {
+  font-weight: 500;
+  font-size: 20px;
+  margin: 16px 0 6px;
+  text-transform: capitalize;
+}
+
+.hero_card_price {
+  font-size: 24px;
+  margin: 0;
+}
