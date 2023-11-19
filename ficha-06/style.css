@@ -1,0 +1,43 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+body {
+  background-color: #070606;
+  color: #ffffff;
+  font-family: "Raleway";
+  margin: 0;
+}
+
+.hero {
+  padding: 120px 80px;
+}
+
+.hero_headline {
+  font-size: 80px;
+  font-weight: 600;
+  max-width: 896px;
+  margin: 0;
+  text-transform: capitalize;
+}
+
+.hero_description {
+  color: #bdbdbd;
+  font-size: 24px;
+  line-height: 160%;
+  max-width: 668px;
+}
+
+.hero_button {
+  background-color: #2b892e;
+  border-radius: 100px;
+  color: #ffffff;
+  display: block;
+  font-size: 18px;
+  padding: 16px 32px;
+  margin-bottom: 80px;
+  text-decoration: none;
+  width: fit-content;
+}
+
+.hero_image {
+  width: 60%;
+}
