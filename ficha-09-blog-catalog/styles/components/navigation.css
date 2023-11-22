@@ -56,6 +56,7 @@
   text-align: center;
   text-transform: capitalize;
   transition: all 0.4s ease;
+  width: fit-content;
 }
 
 .navigation_button:hover {
@@ -67,20 +68,26 @@
 @media only screen and (max-width: 768px) {
   .navigation {
     margin-top: 2rem;
+    padding: 0 2rem;
   }
 
   .navigation_wrapper {
     flex-direction: column;
-    gap: 3rem;
+    gap: 1.6rem;
   }
 
   .navigation_links_wrapper {
     flex-direction: column;
-    gap: 3rem;
+    gap: 1.6rem;
   }
 
   .navigation_links {
-    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
     gap: 1.6rem;
+  }
+
+  .navigation_button {
+    padding: 1.2rem 3rem;
   }
 }
