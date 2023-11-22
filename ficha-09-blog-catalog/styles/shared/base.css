@@ -1,0 +1,20 @@
+html {
+  font-size: calc(100vw / 1920 * 10);
+}
+
+body {
+  background-color: var(--color-white);
+  color: var(--color-black);
+  font-family: var(--font);
+  font-size: 1.8rem;
+  line-height: 160%;
+}
+
+@media only screen and (max-width: 1024px) {
+  html {
+    font-size: 10px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+}
