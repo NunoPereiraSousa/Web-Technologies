@@ -1,0 +1,18 @@
+body {
+  background-color: #000000;
+  margin: 0;
+}
+
+.orangeBox {
+  background-color: #eb6b1b;
+  height: 100px;
+  width: 100px;
+
+  margin-top: 200px;
+}
+
+.blueBox {
+  background-color: #1b7ceb;
+  height: 100px;
+  width: 100px;
+}
