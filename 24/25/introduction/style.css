@@ -1,0 +1,117 @@
+body {
+  margin: 0;
+}
+
+/* THIS PART OF THE CODE WAS DONE FOR EXPLANATION REASONS: */
+
+.container {
+  background-color: palegoldenrod;
+  width: 400px;
+  height: 400px;
+
+  position: relative;
+}
+
+.square {
+  background-color: palegreen;
+  width: 40px;
+  height: 40px;
+
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.circle {
+  background-color: palevioletred;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+
+button {
+  bottom: 0;
+  right: 0;
+  position: fixed;
+}
+
+.main_btn {
+  background-color: transparent;
+  border: 2px solid #ffffff;
+  padding: 10px 16px;
+  border-radius: 4px;
+  font-weight: 500;
+  transition: all 0.4s ease;
+}
+
+.main_btn:hover {
+  background-color: #b26221;
+  border: 2px solid #b26221;
+  color: #ffffff;
+}
+
+h1 {
+  color: green;
+}
+
+.headline-h2 {
+  color: purple;
+  font-size: 40px;
+  margin: 0;
+}
+
+/* END OF THE PART OF THE CODE WAS DONE FOR EXPLANATION REASONS: */
+
+/* SIMPLE RESPONSIVE LAYOUT WITH GRID: */
+
+.cards-wrapper {
+  background-color: red;
+  padding: 20px;
+  margin-top: 100px;
+
+  /* display: flex; */
+  /* gap: 20px; */
+  /* align-items: center;
+  justify-content: space-between; */
+
+  /* height: 600px; */
+
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-items: center;
+  row-gap: 20px;
+}
+
+.card {
+  background-color: palegoldenrod;
+  border-radius: 4px;
+  padding: 20px;
+  height: fit-content;
+  width: fit-content;
+}
+
+@media only screen and (max-width: 1024px) {
+  body {
+    background-color: palegreen;
+  }
+
+  .cards-wrapper {
+    grid-template-columns: 1fr 1fr;
+    background-color: #ffffff;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  body {
+    background-color: lightblue;
+  }
+
+  .cards-wrapper {
+    grid-template-columns: 1fr;
+  }
+}
