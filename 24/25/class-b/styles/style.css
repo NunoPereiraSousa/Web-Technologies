@@ -1,0 +1,62 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+
+@import url("./reset.css");
+
+body {
+  font-family: "Inter";
+}
+
+.card {
+  margin: 50px;
+  position: relative;
+  width: fit-content;
+}
+
+.card-image {
+  width: 312px;
+  height: 312px;
+}
+
+.card-row {
+  margin-top: 14px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.card-info {
+}
+
+.card-name {
+  color: #007580;
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.card-price {
+  font-size: 18px;
+  font-weight: 600;
+  color: #272343;
+}
+
+.card-button {
+  background-color: #029fae;
+  border-radius: 8px;
+  width: 44px;
+  height: 44px;
+}
+
+.card-icon {
+  color: #ffffff;
+}
+
+.card-label {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+
+  background-color: #01ad5a;
+  color: #ffffff;
+  font-size: 13px;
+  border-radius: 4px;
+  padding: 6px 10px;
+}
